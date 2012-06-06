@@ -27,6 +27,15 @@ How to Use
 In the StoryBorad
 - Set Class Name (e.g. JTCCustomizableView )
 - set User Defined Runtime Attributes
+![Setting Example](https://dl.dropbox.com/u/1157820/JTCCustomizableViewComponent/setting1.png)
+![Setting Example](https://dl.dropbox.com/u/1157820/JTCCustomizableViewComponent/setting1.png)
+![Setting Example](https://dl.dropbox.com/u/1157820/JTCCustomizableViewComponent/setting1.png)
+![Setting Example](https://dl.dropbox.com/u/1157820/JTCCustomizableViewComponent/setting1.png)
+![Setting Example](https://dl.dropbox.com/u/1157820/JTCCustomizableViewComponent/setting1.png)
+![Setting Example](https://dl.dropbox.com/u/1157820/JTCCustomizableViewComponent/setting1.png)
+![Setting Example](https://dl.dropbox.com/u/1157820/JTCCustomizableViewComponent/setting1.png)
+![Setting Example](https://dl.dropbox.com/u/1157820/JTCCustomizableViewComponent/setting1.png)
+![Result](https://dl.dropbox.com/u/1157820/JTCCustomizableViewComponent/result1.png)
 - Run
 
 License
