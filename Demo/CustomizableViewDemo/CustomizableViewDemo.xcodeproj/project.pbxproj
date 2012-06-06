@@ -15,6 +15,10 @@
 		01CFE6C4157FD34F009FC6F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CFE6C3157FD34F009FC6F3 /* AppDelegate.m */; };
 		01CFE6C7157FD34F009FC6F3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CFE6C5157FD34F009FC6F3 /* MainStoryboard.storyboard */; };
 		01CFE6CA157FD34F009FC6F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CFE6C9157FD34F009FC6F3 /* ViewController.m */; };
+		01CFE6D9157FE0E4009FC6F3 /* JTCCustomizableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CFE6D2157FE0E4009FC6F3 /* JTCCustomizableTableView.m */; };
+		01CFE6DA157FE0E4009FC6F3 /* JTCCustomizableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CFE6D4157FE0E4009FC6F3 /* JTCCustomizableView.m */; };
+		01CFE6DB157FE0E4009FC6F3 /* JTCLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CFE6D6157FE0E4009FC6F3 /* JTCLineView.m */; };
+		01CFE6DC157FE0E4009FC6F3 /* VerticallyAlignedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CFE6D8157FE0E4009FC6F3 /* VerticallyAlignedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,23 @@
 		01CFE6B3157FD34F009FC6F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		01CFE6B5157FD34F009FC6F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01CFE6B7157FD34F009FC6F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		01CFE6BB157FD34F009FC6F3 /* CustomizableViewDemo-Info.plist */ = {isa = PBXFileReference; path = "CustomizableViewDemo-Info.plist"; sourceTree = "<group>"; };
+		01CFE6BB157FD34F009FC6F3 /* CustomizableViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomizableViewDemo-Info.plist"; sourceTree = "<group>"; };
 		01CFE6BD157FD34F009FC6F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01CFE6BF157FD34F009FC6F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		01CFE6C1157FD34F009FC6F3 /* CustomizableViewDemo-Prefix.pch */ = {isa = PBXFileReference; path = "CustomizableViewDemo-Prefix.pch"; sourceTree = "<group>"; };
-		01CFE6C2157FD34F009FC6F3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		01CFE6C1157FD34F009FC6F3 /* CustomizableViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomizableViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		01CFE6C2157FD34F009FC6F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01CFE6C3157FD34F009FC6F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01CFE6C6157FD34F009FC6F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		01CFE6C8157FD34F009FC6F3 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		01CFE6C8157FD34F009FC6F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		01CFE6C9157FD34F009FC6F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01CFE6D1157FE0E4009FC6F3 /* JTCCustomizableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCCustomizableTableView.h; sourceTree = "<group>"; };
+		01CFE6D2157FE0E4009FC6F3 /* JTCCustomizableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCCustomizableTableView.m; sourceTree = "<group>"; };
+		01CFE6D3157FE0E4009FC6F3 /* JTCCustomizableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCCustomizableView.h; sourceTree = "<group>"; };
+		01CFE6D4157FE0E4009FC6F3 /* JTCCustomizableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCCustomizableView.m; sourceTree = "<group>"; };
+		01CFE6D5157FE0E4009FC6F3 /* JTCLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCLineView.h; sourceTree = "<group>"; };
+		01CFE6D6157FE0E4009FC6F3 /* JTCLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCLineView.m; sourceTree = "<group>"; };
+		01CFE6D7157FE0E4009FC6F3 /* VerticallyAlignedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticallyAlignedLabel.h; sourceTree = "<group>"; };
+		01CFE6D8157FE0E4009FC6F3 /* VerticallyAlignedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticallyAlignedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,7 @@
 		01CFE6A4157FD34E009FC6F3 = {
 			isa = PBXGroup;
 			children = (
+				01CFE6D0157FE0E4009FC6F3 /* JTCCustomizableUIComponent */,
 				01CFE6B9157FD34F009FC6F3 /* CustomizableViewDemo */,
 				01CFE6B2157FD34F009FC6F3 /* Frameworks */,
 				01CFE6B0157FD34F009FC6F3 /* Products */,
@@ -96,6 +109,22 @@
 				01CFE6C1157FD34F009FC6F3 /* CustomizableViewDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01CFE6D0157FE0E4009FC6F3 /* JTCCustomizableUIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				01CFE6D1157FE0E4009FC6F3 /* JTCCustomizableTableView.h */,
+				01CFE6D2157FE0E4009FC6F3 /* JTCCustomizableTableView.m */,
+				01CFE6D3157FE0E4009FC6F3 /* JTCCustomizableView.h */,
+				01CFE6D4157FE0E4009FC6F3 /* JTCCustomizableView.m */,
+				01CFE6D5157FE0E4009FC6F3 /* JTCLineView.h */,
+				01CFE6D6157FE0E4009FC6F3 /* JTCLineView.m */,
+				01CFE6D7157FE0E4009FC6F3 /* VerticallyAlignedLabel.h */,
+				01CFE6D8157FE0E4009FC6F3 /* VerticallyAlignedLabel.m */,
+			);
+			name = JTCCustomizableUIComponent;
+			path = ../../JTCCustomizableUIComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +192,10 @@
 				01CFE6C0157FD34F009FC6F3 /* main.m in Sources */,
 				01CFE6C4157FD34F009FC6F3 /* AppDelegate.m in Sources */,
 				01CFE6CA157FD34F009FC6F3 /* ViewController.m in Sources */,
+				01CFE6D9157FE0E4009FC6F3 /* JTCCustomizableTableView.m in Sources */,
+				01CFE6DA157FE0E4009FC6F3 /* JTCCustomizableView.m in Sources */,
+				01CFE6DB157FE0E4009FC6F3 /* JTCLineView.m in Sources */,
+				01CFE6DC157FE0E4009FC6F3 /* VerticallyAlignedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
