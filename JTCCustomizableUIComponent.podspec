@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Tomohisa Takaoka" => "tomohisa.takaoka@gmail.com" }
   s.platform     = :ios, '5.0'
-  s.source       = { :git => "https://github.com/tomohisa/JTCCustomizableUIComponent.git", :commit => "a11e534035ae5391e506a46f8981880a09e83aff" }
+  s.source       = { :git => "https://github.com/tomohisa/JTCCustomizableUIComponent.git", :commit => "f4b7bbab3fccc98bca607ec08f6e9dc88bf372da" }
   s.source_files = 'JTCCustomizableUIComponent/**/*.{h,m}'
   s.framework    = 'QuartzCore'
   s.requires_arc = true
